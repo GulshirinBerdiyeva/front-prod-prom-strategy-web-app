@@ -1,4 +1,5 @@
 import React from "react";
+import SearchIcon from "@material-ui/icons/Search";
 
 import searchBarImg from "../assets/images/search-bar.png";
 
@@ -7,7 +8,12 @@ function SearchBar() {
         <div className="search-bar">
             <div className="search-bar__left">
                 <div className="wrapper">
-                    <h1>Here should be a Search Bar</h1>
+                    <div className="search-input-wrapper">
+                        <input type="text" placeholder="Search by the title ..."/>
+                        <div className="search-icon">
+                            <SearchIcon />
+                        </div>
+                    </div>
                     <div className="title">
                         <div className="title-wrapper">
                             <div className="title-item">Think like your customer</div>

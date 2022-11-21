@@ -18,9 +18,33 @@
       justify-content: space-between;
     }
 
-    h1 {
-      font-size: 30px;
-      font-weight: 300;
+    .search-input-wrapper {
+      display: flex;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 10px;
+      border-color: $search-bar-color;
+      font-size: 20px;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    .search-icon {
+      height: 60px;
+      width: 50px;
+      display: grid;
+      place-items: center;
+    }
+
+    .search-icon svg {
+      font-size: 40px;
+      color: $search-bar-color;
     }
 
     .title {
