@@ -1,11 +1,12 @@
 import React from "react";
 
-import {Header, Footer} from "./components";
+import {Header, SearchBar, Footer} from "./components";
 
 function App() {
     return (
         <div className="wrapper">
             <Header/>
+            <SearchBar/>
             <Footer/>
         </div>
     );
