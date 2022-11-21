@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  margin-top: 100px;
+  padding: 40px 0;
+  background-color: $gray-line;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__logo {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      color: #7b7b7b;
+    }
+  }
+}
