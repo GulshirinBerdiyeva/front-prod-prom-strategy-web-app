@@ -1,8 +1,12 @@
 @import "../variables";
 
 .header {
-  padding: 40px 0;
+  padding: 20px 0;
   border-bottom: 5px solid $gray-line;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background: $background;
 
   .container {
     display: flex;
