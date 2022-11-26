@@ -2,11 +2,10 @@
 
 .header {
   padding: 20px 0;
-  border-bottom: 5px solid $gray-line;
+  top: 0;
   position: sticky;
   z-index: 1000;
-  top: 0;
-  background: $background;
+  background: white;
 
   .container {
     display: flex;

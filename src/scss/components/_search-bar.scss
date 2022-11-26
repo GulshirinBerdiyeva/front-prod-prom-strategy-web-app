@@ -1,9 +1,11 @@
 @import "../variables";
 
 .search-bar {
+  margin-top: 40px;
   padding: 40px 0;
   height: 100vh;
   display: flex;
+  border-top: 3px solid $gray-line;
 
   &__left {
     flex: 1;
