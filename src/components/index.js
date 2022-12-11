@@ -1,5 +1,7 @@
+export {default as SignUp} from "./SignUp";
 export {default as Header} from "./Header";
 export {default as SearchBar} from "./SearchBar";
+export {default as Profile} from "./profile/Profile";
 export {default as Post} from "./posts/Post";
 export {default as PostList} from "./posts/PostList";
 export {default as Loader} from "./Loader";
