@@ -8,6 +8,23 @@
   margin: 20px auto 0;
   width: 80%;
 
+  .post-header {
+    height: 70px;
+  }
+
+  .post-header img {
+    width: 60px
+  }
+
+  .post-subheader {
+    padding: 16px;
+  }
+
+  .post-body {
+    height: 450px;
+    object-fit: cover;
+  }
+
   .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -46,5 +63,24 @@
   .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
+  }
+
+  @media screen and (max-width: 768px) {
+    .post-header {
+      height: 50px;
+      padding: 5px;
+    }
+
+    .post-header img {
+      width: 40px;
+    }
+
+    .post-subheader {
+      padding: 5px;
+    }
+
+    .post-body {
+      height: 154px;
+    }
   }
 }

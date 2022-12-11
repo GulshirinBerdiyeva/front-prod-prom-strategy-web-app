@@ -1,7 +1,7 @@
 import React from "react";
 import SearchIcon from "@material-ui/icons/Search";
 
-import searchBarImg from "../assets/images/search-bar.png";
+import searchBarImg from "../assets/images/home-intro.png";
 
 function SearchBar() {
     return (
@@ -11,7 +11,7 @@ function SearchBar() {
                     <div className="search-input-wrapper">
                         <input type="text" placeholder="Search by the title ..."/>
                         <div className="search-icon">
-                            <SearchIcon />
+                            <SearchIcon/>
                         </div>
                     </div>
                     <div className="title">

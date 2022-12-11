@@ -15,17 +15,17 @@ function Post() {
     return (
         <div className="post">
             <div className="container">
-                <Card className="post-card animated fadeInUp">
+                <Card className="animated fadeInUp">
                     <CardHeader className="post-header"
-                                title={<div><span>Title</span></div>}
+                                title={<span>Title</span>}
                                 subheader={<span>@Author&nbsp;.&nbsp;23h</span>}
                                 avatar={<img src={avatar} alt="Avatar img"/>}
                     />
-                    <CardContent>
+                    <CardContent className="post-subheader">
                         <span>Text...</span>
                     </CardContent>
-                    <CardMedia>
-                        <img width="500px" src={post} alt="Post img"/>
+                    <CardMedia className="post-body">
+                        <img width="100%" height="100%" src={post} alt="SignIn"/>
                     </CardMedia>
                     <CardActions>
                         <Comment/>
