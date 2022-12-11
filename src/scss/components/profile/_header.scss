@@ -1,0 +1,72 @@
+@import "../../variables";
+
+.profile-header-wrapper {
+  margin: 20px auto 0;
+  width: 80%;
+
+  .profile-header {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+  }
+
+  .img-wrapper {
+    //width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-wrapper img {
+    border-radius: 9999px;
+    //height: 10rem;
+    //width: 10rem;
+    display: flex;
+  }
+
+  .profile-user-name-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: span 2 / span 2;
+  }
+
+  .profile-user-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-user-name p {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-right: 1rem;
+  }
+
+  .profile-params-wrapper {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+
+  .profile-params-wrapper p {
+    margin-right: 2.5rem;
+  }
+
+  .profile-params-wrapper span {
+    font-weight: 700;
+  }
+
+  .profile-full-name-wrapper {
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+
+  .profile-full-name-wrapper p {
+    font-weight: 500;
+  }
+}
