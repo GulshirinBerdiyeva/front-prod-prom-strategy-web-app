@@ -1,0 +1,38 @@
+@import "../../variables";
+
+.comments {
+  padding: 0.25rem 1rem 1rem;
+
+  .inline-comment {
+    margin-bottom: 0.25rem;
+  }
+
+  img {
+    width: 24px;
+    vertical-align: middle;
+  }
+
+  .span-bold {
+    margin-right: 0.5rem;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+  }
+
+  span {
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  button {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    color: rgba(97, 97, 97, var(--tw-text-opacity));
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+}

@@ -4,8 +4,10 @@ import {Header, SearchBar, PostList, Footer, Profile, SignUp} from "./components
 
 import './data'
 import './profileData'
+import './commentsData'
 
 function App() {
+    console.log(new Date());
     return (
         <div className="wrapper">
             <SignUp/>

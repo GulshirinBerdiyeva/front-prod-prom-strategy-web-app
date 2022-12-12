@@ -1,0 +1,37 @@
+@import "../../variables";
+
+.add-comment {
+  .form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 1.25rem;
+  }
+
+  .form-wrapper input {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    color: rgba(97, 97, 97, var(--tw-text-opacity));
+    width: 100%;
+    margin-right: 0.75rem;
+    padding: 1.25rem 1rem;
+    border: none;
+    border-top: groove;
+  }
+
+  .form-wrapper button {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: #046380;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .opacity-25 {
+    opacity: 0.25;
+  }
+}
