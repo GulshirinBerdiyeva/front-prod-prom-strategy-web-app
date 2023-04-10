@@ -6,23 +6,42 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 20px auto 0;
-  width: 80%;
+  width: 60%;
 
   .post-header {
     height: 70px;
   }
 
+  #title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
   .post-header img {
-    width: 60px
+    width: 60px;
+  }
+
+  .post-header span {
+    font-size: 1.5rem;
   }
 
   .post-subheader {
     padding: 16px;
   }
 
+  .post-subheader span {
+    white-space: pre-line;
+    vertical-align: bottom;
+    font-size: 1.5rem;
+  }
+
   .post-body {
-    height: 450px;
+    height: 200px;
     object-fit: cover;
+  }
+
+  .post-body img {
+    object-fit: contain;
   }
 
   .animated {

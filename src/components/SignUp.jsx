@@ -37,23 +37,51 @@ function SignUp() {
                     {error && <p className="sign-up-err">{error}</p>}
 
                     <form>
+                        {/*<label onInput="first-name"><p>First name</p></label>*/}
+                        {/*<input*/}
+                        {/*    id="first-name"*/}
+                        {/*    aria-label="Enter your first name"*/}
+                        {/*    className="form-input"*/}
+                        {/*    type="text"*/}
+                        {/*    placeholder="First name"*/}
+                        {/*/>*/}
+                        {/*<label onInput="last-name"><p>Last name</p></label>*/}
+                        {/*<input*/}
+                        {/*    id="last-name"*/}
+                        {/*    aria-label="Enter your last name"*/}
+                        {/*    className="form-input"*/}
+                        {/*    type="text"*/}
+                        {/*    placeholder="Last name"*/}
+                        {/*/>*/}
+                        {/*<label onInput="username"><p>Username</p></label>*/}
+                        {/*<input*/}
+                        {/*    id="username"*/}
+                        {/*    aria-label="Enter your username"*/}
+                        {/*    className="form-input"*/}
+                        {/*    type="text"*/}
+                        {/*    placeholder="Username"*/}
+                        {/*    onChange={({target}) => setFullName(target.value)}*/}
+                        {/*    value={fullName}*/}
+                        {/*/>*/}
+                        {/*<label onInput="birth-date"><p>Birth date</p></label>*/}
+                        {/*<input*/}
+                        {/*    id="birth-date"*/}
+                        {/*    aria-label="Enter your birth date"*/}
+                        {/*    className="form-input"*/}
+                        {/*    type="date"*/}
+                        {/*    placeholder="Birth date"*/}
+                        {/*/>*/}
+                        {/*<label onInput="url"><p>Social media url</p></label>*/}
+                        {/*<input*/}
+                        {/*    id="url"*/}
+                        {/*    aria-label="Enter your social media url"*/}
+                        {/*    className="form-input"*/}
+                        {/*    type="text"*/}
+                        {/*    placeholder="Social media url"*/}
+                        {/*/>*/}
+                        <label onInput="email"><p>Email</p></label>
                         <input
-                            aria-label="Enter your username"
-                            className="form-input"
-                            type="text"
-                            placeholder="Username"
-                            onChange={({target}) => setUsername(target.value)}
-                            value={username}
-                        />
-                        <input
-                            aria-label="Enter your full name"
-                            className="form-input"
-                            type="text"
-                            placeholder="Full name"
-                            onChange={({target}) => setFullName(target.value)}
-                            value={fullName}
-                        />
-                        <input
+                            id="email"
                             aria-label="Enter your email address"
                             className="form-input"
                             type="text"
@@ -61,8 +89,10 @@ function SignUp() {
                             onChange={({target}) => setEmailAddress(target.value)}
                             value={emailAddress}
                         />
+                        <label onInput="password"><p>Password</p></label>
                         <div className="form-pass">
                             <input
+                                id="password"
                                 aria-label="Enter your password"
                                 className="form-input pass-input"
                                 placeholder="Password"
@@ -75,19 +105,32 @@ function SignUp() {
                                 <Visibility className="pass-button" onClick={togglePassword}/>
                             }
                         </div>
+                        {/*<label onInput="avatar">*/}
+                        {/*    <span>Upload your avatar:</span>*/}
+                        {/*    <input*/}
+                        {/*        id="avatar"*/}
+                        {/*        aria-label="Upload your avatar"*/}
+                        {/*        className="form-input-file"*/}
+                        {/*        type="file"*/}
+                        {/*    />*/}
+                        {/*</label>*/}
                         <button
                             disabled={isInvalid}
                             type="submit"
                             className={`form-button 
                             ${isInvalid && 'opacity-50'}`}
                         >
-                            Sign Up
+                            Sign In
+                            {/*Sign Up*/}
                         </button>
                     </form>
                 </div>
                 <div className="form-foot">
-                    <p>Have an account?{` `}
-                        <a href="#Sign-in">Sign in</a>
+                    {/*<p>Have account already?{` `}*/}
+                    {/*    <a href="#Sign-in">Sign in</a>*/}
+                    {/*</p>*/}
+                    <p>Haven't got an account?{` `}
+                        <a href="#Sign-in">Sign up</a>
                     </p>
                 </div>
             </div>

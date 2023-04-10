@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Header, SearchBar, PostList, Footer, Profile, SignUp} from "./components";
+import {Header, SearchBar, PostList, Footer, Profile, SignUp, PromotionStrategy} from "./components";
 
 import './data'
 import './profileData'
@@ -12,6 +12,7 @@ function App() {
         <div className="wrapper">
             <SignUp/>
             <Header/>
+            <PromotionStrategy/>
             <SearchBar/>
             <Profile/>
             <PostList/>

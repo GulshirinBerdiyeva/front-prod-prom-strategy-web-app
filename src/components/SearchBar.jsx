@@ -16,8 +16,8 @@ function SearchBar() {
                     </div>
                     <div className="title">
                         <div className="title-wrapper">
-                            <div className="title-item">Think like your customer</div>
                             <div className="title-item">Think strategically</div>
+                            <div className="title-item">Think like your customer</div>
                             <div className="title-item">Think creatively</div>
                             <div className="title-item">Think results</div>
                             <div className="title-item">Think digital</div>
@@ -26,7 +26,7 @@ function SearchBar() {
                 </div>
             </div>
             <div className="search-bar__right">
-                <div className="img-background"/>
+                {/*<div className="img-background"/>*/}
                 <img className="img" src={searchBarImg} alt="Search Bar Img"/>
             </div>
         </div>

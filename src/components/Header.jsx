@@ -15,8 +15,9 @@ function Header() {
                 </div>
                 <div className="header__right">
                     <ul>
-                        <li><a href="#Sign-up">Sign up</a></li>
-                        <li><a href="#Sign-in">Sign in</a></li>
+                        <li><a href="#Sign-up">Log out</a></li>
+                        {/*<li><a href="#Sign-in">Sign in</a></li>*/}
+                        {/*<li><a href="#Sign-in">Sign up</a></li>*/}
                     </ul>
                 </div>
             </div>
